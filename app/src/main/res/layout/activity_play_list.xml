@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudColor"
+    tools:context="com.example.android.musicapp.PlayList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/play_list"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            style="@style/SoundsTextView"
+            android:text="@string/playList_explain"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <!-- song 1 -->
+        <TextView
+            android:id="@+id/textView_song1_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_1_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 2 -->
+        <TextView
+            android:id="@+id/textView_song2_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_2_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 3 -->
+        <TextView
+            android:id="@+id/textView_song3_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_3_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 4 -->
+        <TextView
+            android:id="@+id/textView_song4_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_4_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 5 -->
+        <TextView
+            android:id="@+id/textView_song5_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_5_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 6 -->
+        <TextView
+            android:id="@+id/textView_song6_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_6_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 7 -->
+        <TextView
+            android:id="@+id/textView_song7_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_7_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 8 -->
+        <TextView
+            android:id="@+id/textView_song8_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_8_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 9 -->
+        <TextView
+            android:id="@+id/textView_song9_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_9_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+        <!-- song 10 -->
+        <TextView
+            android:id="@+id/textView_song10_id"
+            style="@style/SoundsTextView"
+            android:text="@string/song_10_text" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+</ScrollView>

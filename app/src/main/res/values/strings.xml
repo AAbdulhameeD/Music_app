@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="play_music_category">Music player</string>
+    <string name="play_list">Play List</string>
+    <string name="purchase_song">Purchase</string>
+    <string name="home_page">Home</string>
+    <string name="payment">Payment</string>
+    <string name="song_1_text">Adele- someone like you</string>
+    <string name="song_2_text">Wiz khalifa- see you again</string>
+    <string name="song_3_text">Amr Diab-Ya Ahla Haga</string>
+    <string name="song_4_text">Amt Diab- awel Kol haga</string>
+    <string name="song_5_text">Amr Diab- ana mosh anany</string>
+    <string name="song_6_text">Adele- Hello</string>
+    <string name="song_7_text">David Guetta- Titanium</string>
+    <string name="song_8_text">Asala- youm el-rahil</string>
+    <string name="song_9_text">Kazim- akrahoha</string>
+    <string name="song_10_text">Hamza Namira- ya mazloum</string>
+    <string name="payment_explain">this activity for purchasing the user must enter his PayPal card number in the EditText</string>
+    <string name="purchased">congratulations,Purchased Done</string>
+    <string name="main_activity_explain">This is the main activity which allow Moving through the contents of the application , each button go to specific activity</string>
+    <string name="playList_explain">this activity contain a list of song ,by clicking on the song the app Switch to media player with this song as we will see </string>
+    <string name="musicPlayer_explain">This activity contains a text view shows the song name and some ImageButtons</string>
+</resources>

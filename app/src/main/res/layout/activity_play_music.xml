@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.PlayMusic">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".999"
+            android:scaleType="centerCrop"
+            android:src="@drawable/music" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentSong"
+            style="@style/SoundsTextView"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/song_1_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/play_music_category"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/SoundsTextView"
+            android:text="@string/musicPlayer_explain"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/iconsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_rewind_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#3C3E3C"
+            android:scaleType="centerInside"
+            android:src="@drawable/rewind" />
+
+        <ImageButton
+            android:id="@+id/button_pause_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#3C3E3C"
+            android:scaleType="centerInside"
+            android:src="@drawable/pause" />
+
+        <ImageButton
+            android:id="@+id/button_play_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#3C3E3C"
+            android:scaleType="centerInside"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/button_fast_forward_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#3C3E3C"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fast_forward" />
+
+        <ImageButton
+            android:id="@+id/button_ic_favorite_black_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#3C3E3C"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_favorite_black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/home_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iconsLayout"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/home_page"
+        android:textColor="#F2C84D"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</RelativeLayout>
